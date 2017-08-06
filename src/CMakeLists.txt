@@ -4,4 +4,4 @@ project(WordReverse)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O0 -g")
 
-add_executable(WordReverse Array.cpp)
+add_executable(WordReverse WordReverse.cpp)
